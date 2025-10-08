@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trust Home | Modern Home Décor Automation</title>
+  <style>
+    /* Base Reset & Font */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #f1f8ff);
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 40px;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #0077b6;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    p {
+      max-width: 700px;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin: 10px 0;
+      opacity: 0.95;
+      animation: fadeInUp 1.2s ease-in-out;
+    }
+
+    a {
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #005f8c;
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #666;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* Decorative element */
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(0, 119, 182, 0.1);
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .circle.one { width: 180px; height: 180px; top: 10%; left: 15%; }
+    .circle.two { width: 120px; height: 120px; bottom: 15%; right: 20%; }
+    .circle.three { width: 80px; height: 80px; bottom: 30%; left: 25%; }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="circle one"></div>
+  <div class="circle two"></div>
+  <div class="circle three"></div>
+
+  <h1>Trust Home | Modern Home Décor Automation</h1>
+  <p>Welcome to the official automation initiative of <strong>Trust Home</strong> — a cutting-edge system built to <em>discover, design, and publish</em> beautiful home décor products using the power of AI and Pinterest API integration.</p>
+  
+  <p>This platform is currently under development and maintained by Trust Home for internal automation, innovation, and research purposes.</p>
+  
+  <p>For transparency and user data protection, please review our 
+    <a href="https://siam-449840.github.io/trust-home-legal/" target="_blank">Privacy Policy</a>.
+  </p>
+
+  <footer>© 2025 Trust Home. All Rights Reserved.</footer>
+</body>
+</html>
